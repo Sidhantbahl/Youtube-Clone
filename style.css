@@ -1,3 +1,73 @@
-html{
-    background-color:blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+
+. { 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:red;
+    font-family:'Roboto', sans-serif;
+}
+
+.menubar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:70px;
+}
+
+.menubar .logo{
+    display:flex;
+    align-items:center;
+}
+
+.menubar .logo img{
+    width: 100px;
+    margin-left: 15px;
+}
+
+.menubar i{
+    padding:0 7px;
+
+}
+.menubar .search form{
+    border:1px solid rgba(red, green, blue, alpha);
+    height:30px;
+}
+
+.menubar.search input{
+    width:100px;
+    padding:0;
+    margin:0;
+    border-radius:0;
+    border:none;
+}
+
+.menubar.search button{
+    padding:0;
+    margin:0;
+    height:100%;
+    border:none;
+    border-radius:none;
+}
+
+.mainbody{
+    height:calc(100vh -70px);
+    display:flex;
+}
+
+.mainbody .categories{
+    widows: 230px;
+    background-color:red;
+}
+
+.mainbody .categories .categoriessection{
+    width:flex;
+    flex-direction:column;
+}
+
+.mainbody .categories .categoriessection .display{
+    padding:12px 25px;
 }
